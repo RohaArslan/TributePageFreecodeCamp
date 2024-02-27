@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #789ac0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+}
+
+#title {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #404040;
+    transition: color 0.3s;
+    font-family : Fiora monograms
+}
+
+#img-div {
+    margin: 20px 0;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    font-style: italic;
+    margin: 10px 0;
+    color: #404040;
+    transition: color 0.3s;
+}
+
+#tribute-info {
+    font-size: 18px;
+    text-align: left;
+    margin: 20px 0;
+    font-family: DW Pica Italic;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: 727272;
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+    transition: color 0.3s;
+}
+
+#main:hover {
+    background-color: 	#b7bdc9;
+}
+
+#title:hover, #img-caption:hover, #tribute-link:hover {
+    color: #866475;
+}
+
+/* Additional Styling and Sections */
+.icon {
+    font-size: 24px;
+    color: #222222;
+    margin: 10px;
+}
+
+.section {
+    border-top: 1px solid 727272;
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+#music-section .icon {
+    font-family: 'FontAwesome'; /* You can use FontAwesome or another custom font for icons */
+}
+
+#awards-section .icon {
+    font-family: 'FontAwesome';
+}
+
+#music-section .icon:before {
+    content: '\f025'; /* FontAwesome icon code for music */
+}
+
+#awards-section .icon:before {
+    content: '\f091'; /* FontAwesome icon code for award */
+}
